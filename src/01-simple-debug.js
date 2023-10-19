@@ -1,6 +1,9 @@
-console.log('Simple debugging example running.')
-debugger
+console.log('Simple debugging example running.');
 
-let x = 99
-debugger
-console.log(x)
+document.addEventListener('DOMContentLoaded', function () {
+  debugger;
+  let x = 99;
+  debugger;
+  console.log(x);
+});
+
